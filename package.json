@@ -1,0 +1,17 @@
+{
+  "name": "userLocation",
+  "version": "1.0.0",
+  "description": "Get User's Location",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "ThyDreams",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ip": "^1.0.4",
+    "geoip-lite": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
